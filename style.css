@@ -1,0 +1,35 @@
+@import "fonts.css";
+
+:root {
+  --primary-color: #f1c50e;
+  --secondary-color: #54359d;
+}
+
+body {
+  font-family: Iransans;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  background-color: rgb(209, 209, 210);
+}
+
+.main-nav {
+  background-color: var(--secondary-color);
+  font-size: 20px;
+  margin: 10px;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  position: sticky;
+}
+
+.nav-items {
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.nav-items a {
+  border: 5px;
+}
