@@ -11,25 +11,39 @@ body {
   padding: 0;
   direction: rtl;
   background-color: rgb(209, 209, 210);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .main-nav {
   background-color: var(--secondary-color);
-  font-size: 20px;
-  margin: 10px;
+  font-size: 0px;
+  margin: 20px;
   padding: 15px 10px;
-  display: flex;
-  justify-content: center;
-  border-radius: 50px;
-  position: sticky;
+  border-radius: 10px;
+  position: relative;
+  width: 920px;
+  height: 30px;
 }
 
 .nav-items {
-  color: var(--primary-color);
+  color: #fff;
   text-decoration: none;
-  margin-left: 50px;
+  line-height: 30px;
+  position: relative;
+  font-size: 15px;
+  display: inline-block;
+  margin-left: 30px;
 }
 
-.nav-items a {
-  border: 5px;
+.nav-items:hover {
+  color: var(--primary-color);
+}
+
+.main-nav svg {
+  float: left;
+  margin-right: 10px;
+  line-height: 30px;
 }
